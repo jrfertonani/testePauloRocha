@@ -1,11 +1,99 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('partials/header') %>
+
+<content>
+  <div class="banner">
+    <h2>Tagli describing your e-shop</h2>
+      <img src="images/banner.png" alt="Logo" />
+      <img src="images/banner.png" alt="Logo" />
+      <img src="images/banner.png" alt="Logo" />
+    <br></br>
+    <button type="button">Shop Now</button>
+  </div>
+
+  <div class="vitrine">
+    <h2>Featured Products</h2>
+    <div class="vitrine_container">
+      <a href="#">
+       <img src="images/banner.png" alt="Logo" />
+       <p>PRODUTO NAME
+       <span class="preco">$300</span></p>
+      </a>
+      <a href="#">
+        <img src="images/banner.png" alt="Logo" />
+        <p>PRODUTO NAME
+        <span class="preco">$300</span></p>
+      </a>
+    </div>
+  </div>
+
+  <div class="cadastro">
+    <h2>NewsLetter</h2>
+    <p>Lorem Ipsum is Lorem Ipsum and is considered to be of
+      importance and useful for diagnostic purposes
+    </p>
+    <label for="email"></label>
+    <input type="email" id="email" name="email">
+  </div>
+
+  <br></br>
+
+  <div class="produtos">
+    <div class="card">
+      <a href="#">
+        <img src="images/cards 1.png" alt="logo">
+        <p>PRODUTO NAME</p>
+        <span class="preco">$300</span>
+      </a>
+    </div>
+  </div>
+  <div class="produtos">
+    <div class="card">
+      <a href="#">
+        <img src="images/cards 2.png" alt="logo">
+        <p>PRODUTO NAME</p>
+        <span class="preco">$300</span>
+      </a>
+    </div>
+  </div>
+  <div class="produtos">
+    <div class="card">
+      <a href="#">
+        <img src="images/cards 3.png" alt="logo">
+        <p>PRODUTO NAME</p>
+        <span class="preco">$300</span>
+      </a>
+    </div>
+  </div>
+  <div class="produtos">
+    <div class="card">
+      <a href="#">
+        <img src="images/cards 4.png" alt="logo">
+        <p>PRODUTO NAME</p>
+        <span class="preco">$300</span>
+      </a>
+    </div>
+  </div>
+  <div class="produtos">
+    <div class="card">
+      <a href="#">
+        <img src="images/cards 5.png" alt="logo">
+        <p>PRODUTO NAME</p>
+        <span class="preco">$300</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="declarecao">
+    <h2>About Your Shop</h2>
+    <p>Lorem Ipsum is Lorem Ipsum and is considered to be of
+      importance and useful for diagnostic purposes
+    </p>
+  </div>
+
+</content>
+
+
+
+
+<%- include('partials/footer') %>
+
