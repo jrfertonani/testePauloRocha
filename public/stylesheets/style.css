@@ -89,12 +89,14 @@ content .banner h2 {
     align-items: center;
     max-width: 500px;
     margin:  auto;    
+    align-items: baseline; 
   }
   .data{
     display:flex;
     max-width: 500px;
     margin:  auto;  
     flex-grow: 0;
+    
   }
 
   /* produtos */
